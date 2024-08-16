@@ -1,0 +1,11 @@
+#heading{
+    color: red;
+}
+
+#info{
+    display: block;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}

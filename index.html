@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <h1> Hello Top of Root </h1>
+    <div id="root">
+        <h1> I am Replaced by Root Elements... </h1> <!-- Placeholder content that will be replaced by React Dom Element -->
+    </div>
+
+    <h1> Hello Below of Root</h1>
+
+    <!-- Use CDN to inject React -->
+    <!-- Core React -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+
+    <!-- DOM File for DOM Operations -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Link to the external JavaScript file where React components will be defined -->
+    <script src="./App.js"></script>
+  </body>
+</html>
